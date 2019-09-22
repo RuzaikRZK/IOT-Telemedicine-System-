@@ -1,0 +1,13 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="logout.rxrec" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="IOT_Telemedicine_System.rxtst" />
+    <Element value="Recording1.rxrec" />
+    <Element value="Login.rxrec" />
+    <Element value="logout.rxrec" />
+  </Array>
+  <Properties name="projectSavedData" />
+</Properties>

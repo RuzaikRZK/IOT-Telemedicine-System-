@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="6b704482-d3d4-4a45-8230-2ab6353bae5d"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="IOT_Telemedicine_System">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="12971527-4b14-495d-a6ea-a5bf6b33d081"
+	name="IOT_Telemedicine_SystemRepository"
+	relativepath="IOT_Telemedicine_SystemRepository.rxrep">
+		<codegen
+		classname="IOT_Telemedicine_SystemRepository"
+		namespace="IOT_Telemedicine_System">
+		</codegen>
+		<rootfolder
+		id="c4b54dc4-35ef-4cc9-83a1-1666a7ed031b"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

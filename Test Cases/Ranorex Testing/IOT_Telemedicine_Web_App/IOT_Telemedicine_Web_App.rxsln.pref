@@ -1,0 +1,12 @@
+﻿<Properties>
+  <Array name="active" />
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <Array name="bookmarks" />
+  <Array name="files" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution IOT_Telemedicine_Web_App[]]&#xD;&#xA;Solution IOT_Telemedicine_Web_App\Solution Items&#xD;&#xA;Solution IOT_Telemedicine_Web_App" />
+  <StartupProject value="{C008A10D-1DAE-4318-82E7-9B47C17ABE79}" />
+</Properties>

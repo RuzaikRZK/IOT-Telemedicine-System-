@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="IOT_Telemedicine_System"
+      id="585ba56d-104d-41ed-aee6-ef46814da171"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="IOT_Telemedicine_System"
+      id="585ba56d-104d-41ed-aee6-ef46814da171"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

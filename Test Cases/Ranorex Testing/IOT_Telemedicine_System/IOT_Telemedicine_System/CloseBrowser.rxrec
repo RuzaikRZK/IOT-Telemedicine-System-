@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="98e7096a-386a-47fc-83a2-533aa7f5c9a8"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="IOT_Telemedicine_System">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="8dc73cd7-dcc1-4d00-959e-0dee9f64b8e0">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="30901cf4-3669-4ff8-bd5b-6b98b8130f4e"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='chrome']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="12971527-4b14-495d-a6ea-a5bf6b33d081"
+	name="IOT_Telemedicine_SystemRepository"
+	relativepath="IOT_Telemedicine_SystemRepository.rxrep">
+		<codegen
+		classname="IOT_Telemedicine_SystemRepository"
+		namespace="IOT_Telemedicine_System">
+		</codegen>
+		<rootfolder
+		id="c4b54dc4-35ef-4cc9-83a1-1666a7ed031b"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

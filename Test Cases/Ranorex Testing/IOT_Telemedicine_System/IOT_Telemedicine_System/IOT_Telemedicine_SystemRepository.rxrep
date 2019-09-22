@@ -1,0 +1,251 @@
+﻿<repository
+id="12971527-4b14-495d-a6ea-a5bf6b33d081"
+name="IOT_Telemedicine_SystemRepository">
+	<codegen
+	classname="IOT_Telemedicine_SystemRepository"
+	namespace="IOT_Telemedicine_System">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="c4b54dc4-35ef-4cc9-83a1-1666a7ed031b"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="30901cf4-3669-4ff8-bd5b-6b98b8130f4e"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		searchtimeout="30000ms"
+		usecache="False">
+			<basepath>
+				/dom[@domain='http://localhost:8080/IOT_T_M/Login.jsp']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="menubar,nativewindow"
+		capname="menubar"
+		id="5e93c9c0-cf4b-4428-93cc-d16cc2fff871"
+		isrooted="True"
+		name="Explorer"
+		refpath="/menubar[@processname='explorer']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="c0ee9773-1ed0-4c3e-bb99-c97c82135001"
+			name="GoogleChrome1RunningWindow"
+			refimgid="18de1c47-d035-40d2-ac89-e2c4c8ccee73"
+			refpath="/menubar[@processname='explorer']/container[@controlid='40965']/container/element/toolbar/button[10]"
+			searchtimeout="30000ms">
+				/menubar[@processname='explorer']/container[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[10]
+			</item>
+			<basepath>
+				/menubar[@processname='explorer']
+			</basepath>
+			<icon>
+				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
+VZB4/J8BADyZI3kwAy98AAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="f471f202-e084-4a82-ad6f-857f1515e230"
+		isrooted="True"
+		name="LoginV8"
+		refpath="/dom[@domain='localhost:8080']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<folder
+			addcaps="unknown,webelement,formtag"
+			capname="form"
+			id="55cc85fc-baa1-4180-8753-3c66c3fa7132"
+			isrooted="True"
+			name="HttpLocalhost8080IOTTMLogin1"
+			refpath="/dom[@domain='localhost:8080']/body/div/div/div/form[@action='http://localhost:8080/IOT_T_M/login']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,formtag"
+				capname="formtag"
+				id="ae76a7d0-f165-4d33-8786-42cbb07a163c"
+				name="HttpLocalhost8080IOTTMLogin"
+				refimgid="a826ffa6-75cf-4a2e-a5e9-bfd170a70c2b"
+				refpath="/dom[@domain='localhost:8080']/body/div/div/div/form[@action='http://localhost:8080/IOT_T_M/login']"
+				searchtimeout="30000ms">
+					/dom[@domain='localhost:8080']/body/div//form[@action='http://localhost:8080/IOT_T_M/login']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="236cdc4d-718f-4575-b4a4-1508b8583694"
+				name="Username"
+				refimgid="6e02fd1b-f6ee-43c7-8bfc-b41035b7b272"
+				refpath="/dom[@domain='localhost:8080']/body/div/div/div/form/div[1]/input[@name='username']"
+				searchtimeout="30000ms">
+					/dom[@domain='localhost:8080']/body/div//form[@action='http://localhost:8080/IOT_T_M/login']/div[1]/input[@name='username']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="7521beff-c73f-4620-ad7b-89423f0bff50"
+				name="Pass"
+				refimgid="e8a67d66-c12d-4cad-ac41-403b0020c019"
+				refpath="/dom[@domain='localhost:8080']/body/div/div/div/form/div[2]/input[@name='pass']"
+				searchtimeout="30000ms">
+					/dom[@domain='localhost:8080']/body/div//form[@action='http://localhost:8080/IOT_T_M/login']/div[2]/input[@name='pass']
+				</item>
+				<item
+				addcaps="unknown,webelement,buttontag"
+				capname="buttontag"
+				id="42374218-f8bb-4f65-ba32-5ec05df120b9"
+				name="ButtonTagSignIn"
+				refimgid="1fea49c7-12ab-4f49-bea1-58d93bd15bfd"
+				refpath="/dom[@domain='localhost:8080']/body/div/div/div/form/div[4]/button[@innertext='Sign in']"
+				searchtimeout="30000ms">
+					/dom[@domain='localhost:8080']/body/div//form[@action='http://localhost:8080/IOT_T_M/login']/div[4]/button[@innertext='Sign in']
+				</item>
+				<basepath>
+					/dom[@domain='localhost:8080']/body/div//form[@action='http://localhost:8080/IOT_T_M/login']
+				</basepath>
+			</folder>
+			<item
+			addcaps="unknown,webelement,itag"
+			capname="itag"
+			id="dd66937c-4211-4395-850f-629f0a5039c2"
+			name="Person"
+			refimgid="63509e6b-3b98-4f40-8568-2a4840b5b77f"
+			refpath="/dom[@domain='localhost:8080']//a[#'navbarDropdownProfile']/i[@innertext='person']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8080']//a[#'navbarDropdownProfile']/i[@innertext='person']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="53d080be-514c-4261-89f4-7f6159ae5771"
+			name="LogOut"
+			refimgid="bdf1c4d2-e35b-4037-bfbc-0059b132d5ec"
+			refpath="/dom[@domain='localhost:8080']/body/div/div[2]/nav/div/div[2]/ul/li[2]/div/a[@innertext='Log out']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8080']/body/div/?/?/nav//ul//a[@innertext='Log out']
+			</item>
+			<basepath>
+				/dom[@domain='localhost:8080']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container"
+		capname="container"
+		id="bd5f706f-4248-483c-b418-d5a5cee33290"
+		isrooted="True"
+		name="Dropdown"
+		refimgid="bc5875af-5a11-470e-abed-e6141370a777"
+		refpath="/container[@caption='dropdown']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/container[@caption='dropdown']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAABhUlEQVQ4T8WQvUsCYRzHb++F/oSGiMiiV4qWakiiqWyJGiK0cmxw
+kUhtMHqzTuWC0KKh2ZBqsTSHlt6oNkENBF+OoJZCKlO/PY/PGaIXCQ19jw/3e7787sPdcX/OkCOC
+LiGOVruIZqsIhS2BJj6BFnuCnBOoJ3OdJQYFL6LR+ohOWxS9y7cQ/FHkBNVaL2qmfajUeFFF7nno
+uULNoHOD/gK1uit0zx1hdGwBeuEALpcLnPk4gkAkjrtwDPfheAGF5xiug1HcEC5DInzBJ0zMO8Hz
+PLid82fkky26fupo+me3mGDbL0pVqgw+c1DRgNbOBI6zOClp8gvFD5WSE8zw0id4o6SkkV8uhb5B
+GkrNBhPsnkZISSO3LAcVZKBUrzHBnueBlDRyy3JIgqkVJtj3hEhJ/3ZGIv0LdCeLwcklJnAeBvCa
+TOEl+UF4J7xJszz53W+BevEEPeMC2lUWifWCuZS24VV0qDbRN6JjAhpBEGAymWA0GsvCYDDAbDbD
+7XYzwT+G474AUqqnq7MiKz0AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="ebe261b9-3213-4c36-8c8c-a24b1ebfd82b"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenBrowser"
+	namespace="IOT_Telemedicine_System">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="chrome"
+		clearcache="False"
+		clearcookies="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				https://www.ranorex.com
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="12971527-4b14-495d-a6ea-a5bf6b33d081"
+	name="IOT_Telemedicine_SystemRepository"
+	relativepath="IOT_Telemedicine_SystemRepository.rxrep">
+		<codegen
+		classname="IOT_Telemedicine_SystemRepository"
+		namespace="IOT_Telemedicine_System">
+		</codegen>
+		<rootfolder
+		id="c4b54dc4-35ef-4cc9-83a1-1666a7ed031b"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

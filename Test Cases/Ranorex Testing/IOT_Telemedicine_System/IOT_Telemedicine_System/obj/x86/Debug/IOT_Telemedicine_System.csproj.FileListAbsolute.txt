@@ -1,0 +1,1 @@
+H:\Bsc(Hons)Information Technology In SLIIT(Update)\3 Year\Semester 2\Undergraduate Project\web application\Test Cases\Ranorex Testing\IOT_Telemedicine_System\IOT_Telemedicine_System\obj\x86\Debug\IOT_Telemedicine_System.csprojResolveAssemblyReference.cache
